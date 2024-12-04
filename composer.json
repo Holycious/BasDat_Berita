@@ -1,0 +1,8 @@
+{
+    "name": "webberita/news",
+    "description": "A simple blog application",
+    "require": {
+      "php": ">=7.4",
+        "mongodb/mongodb": "^1.16"
+    }
+  }

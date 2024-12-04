@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins';
+    background-color: #ffffff;
+    color: #303338;
+}
+
+.navbar .navbar-brand {
+    color: #b61318;
+}
+
+.form-control::placeholder {
+    color: #b61318 !important;
+    font-style: italic;
+}
+a.btn.btn-outline-dark:hover {
+    background-color: #b61318;
+    color: #ffffff;
+    /* border: 0.5px solid #ffffff; */
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px #333;
+}
+.banner-welcome {
+    background-color: #e9e9e9 !important;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.banner-welcome i{
+    color: #b61318;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px thin #e0e0e0;
+    border-radius: 6px;
+}
+
+.card .card-title {
+    color: #b61318;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.card-footer {
+    background: #ffffff !important;
+    border-top: none !important;  
+}
+
+.btn-outline-dark {
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.clickable-card {
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.clickable-card:hover {
+    transform: translateY(-5px); /* Memberikan efek naik saat hover */
+    box-shadow: 0 4px 6px #b61318; /* Menambahkan bayangan */
+}
+
